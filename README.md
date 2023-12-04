@@ -1,4 +1,4 @@
-<p align="center">><img src="https://github.com/Tougashi/DeliverIT/blob/main/public/assets/images/logo/logo-text.png" width="400" alt="Laravel Logo"></p>
+<p align="center"><img src="https://github.com/Tougashi/DeliverIT/blob/main/public/assets/images/logo/logo-text.png" width="400" alt="Laravel Logo"></p>
 
 
 ## DeliverIT
