@@ -1,0 +1,54 @@
+@extends('Layouts.index')
+@section('container')
+<div class="page-content">
+     <!--breadcrumb-->
+     <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">{{ $title }}</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item active" aria-current="page">List</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="ms-auto"><a href="/add-service" class="btn btn-primary radius-30 mt-2 mt-lg-0"><i class="bx bx-plus"></i>Add Service</a></div>
+    </div>
+    <!--end breadcrumb-->
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table id="example2" class="table table-striped table-bordered" style="width:100%">
+                <thead class="table-light">
+                    <tr>
+                        <th>No</th>
+                        <th>Service</th>
+                        <th>Vehicle</th>
+                        <th>Max Weight</th>
+                        <th>Max Size</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                          <h6 class="mb-0 font-14">Pick Up</h6>
+                        </td>
+                        <td><i class="bx bxs-car"></i> Car</td>
+                        <td>200 Kg</td>
+                        <td>20 Km</td>
+                        <td>
+                            <div class="d-flex order-actions">
+                                <a href="/edit-service" class="btn-primary"><i class='bx bxs-edit'></i></a>
+                                <a href="" class="btn-danger" data-confirm-delete="true"><i class='bx bxs-trash'></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>
+@endsection
